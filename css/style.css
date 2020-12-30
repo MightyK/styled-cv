@@ -1,0 +1,142 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 3.125rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: .625rem;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: .625rem 1.25rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 .375rem;
+    border-bottom-style: none;
+    border-width: .5rem;
+    width: 4%;
+    margin: 6.25rem auto;
+}
+
+.container__top {
+    background-color: #d0e8f2;
+    position: relative;
+    padding-top: 6.25rem;
+}
+
+.container__middle {
+    margin: 6.25rem 0;
+}
+
+.profile {
+    margin: 0 auto;
+    margin-bottom: 3.125rem;
+}
+
+.container__bottom {
+    background-color: #66BFBF;
+    padding: 3.125rem 0 1.25rem;
+}
+
+.profile__image {
+    margin-bottom: -1rem;
+    width: 15%;
+}    
+
+.skill__row {
+    width: 50%;
+    margin: 6.25rem auto;
+    text-align: left;
+}
+
+.skill__image-1 {
+    float: left;
+    width: 25%;
+    margin-right: 1.875rem;
+}
+
+.skill__image-2 {
+    float: right;
+    width: 25%;
+    margin-left: 1.875rem;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 18.75rem;
+    top: 2.5rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 15.625rem;
+    bottom: 18.75rem;
+}
+
+.pro {
+    text-decoration: underline;
+}    
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 2.5rem auto 3.75rem;
+}
+
+.footer-cr {
+    color: #EAF6F6;
+    font-size: .75rem;
+    padding: 1.25rem 0;
+}
+
+.btn {
+    color: #fff;
+    border-radius: .5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    padding: .625rem 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
